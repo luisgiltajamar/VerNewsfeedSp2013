@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="efb6a6ef-60d8-4d0c-8b48-1f122ac8ac1d" 
+        solutionId="efb6a6ef-60d8-4d0c-8b48-1f122ac8ac1d" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="VerNewsfeed"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="6fc7a9ca-1681-460b-8bcc-41b0463d8e8a" />
+  </features>
+</package>
