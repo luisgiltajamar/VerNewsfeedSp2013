@@ -132,7 +132,7 @@ var updateDisplay=function() {
                autor = posts[posts.length - 1].Actors.results[post.AuthorIndex];
                contenido += addToFeed(autor,
                     post.Text,
-                     new Date(post.CreatedTime));
+                      new Date(post.CreatedTime));
                 posts.pop();
             } else {
                 postb = resultados[resultados.length - 1];
