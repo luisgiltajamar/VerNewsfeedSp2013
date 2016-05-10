@@ -177,8 +177,10 @@ function sendPost() {
             }
         });
     contenido = "";
-    $.each(ca, function(i, data) {
-        contenido += " " + data;
+    $.each(ca, function (i, data) {
+        if (i > 0)
+            contenido += " ";
+        contenido += data;
     });
 
     $.ajax({
